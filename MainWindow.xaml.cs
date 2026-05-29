@@ -209,7 +209,7 @@ namespace PrincessCyberGuide
         {
             _audio.GreetingVoice();
             AddAsciiArt();
-            AddMessage("Bot", "👑 Welcome! I am Princess CyberGuide.\n\nHow are you today?", Colors.Magenta);
+          AddMessage("Bot", "👑 Welcome to the Royal Cybersecurity Court!\n\nI am Princess CyberGuide.\n\nHow are you today? Feel free to ask me anything about cybersecurity!", Colors.Magenta);
         }
 
         private void AddAsciiArt()
