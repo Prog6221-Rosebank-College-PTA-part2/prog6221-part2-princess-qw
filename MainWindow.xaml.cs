@@ -102,6 +102,7 @@ namespace PrincessCyberGuide
             return "";
         }
 
+        if (msg.Contains("data breach") || msg.Contains("breach")) return "breach";
         private void AddInterest(string topic)
         {
             string interest = topic switch
