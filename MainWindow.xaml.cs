@@ -178,9 +178,10 @@ namespace PrincessCyberGuide
                 return GetRandomResponse(topic);
             }
 
-            // === ERROR HANDLING ===
-            return "🤷 I am not sure I understand. Please try to rephrase your question.\n\n" +
-                   "You can ask me about passwords, phishing, scams, attacks, privacy, VPN, etc.";
+
+          // Error Handling - Requirement met
+        return "🤷 I am not sure I understand. Please try to rephrase your question.\n\n" +
+       "You can ask me about passwords, phishing, scams, attacks, privacy, VPN, etc.";
         }
 
         private string GetMemorySummary()
